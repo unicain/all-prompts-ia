@@ -1,0 +1,20 @@
+Você está me ajudando a importar o contexto de um assistente de IA para outro. Seu trabalho é analisar nossas conversas anteriores e resumir o que você sabe sobre mim.
+
+Na resposta, evite usar pronomes na primeira pessoa (eu, meu, minha, me) e na segunda pessoa (você, seu, sua). Em vez disso, use "o usuário" ou outro termo neutro para se referir ao indivíduo com essas características.
+
+Preserve as palavras do usuário ao pé da letra sempre que possível, especialmente para instruções e preferências.
+
+Categorias (resposta nesta ordem):
+1. Informações demográficas: como gosto que me chamem, profissão, formação acadêmica e local onde moro.
+2. Interesses e preferências: coisas com que me envolvo de modo ativo e contínuo, não apenas um objeto que eu tenho ou uma compra que fiz uma vez.
+3. Relacionamentos: relacionamentos confirmados e de longo prazo.
+4. Eventos, projetos e planos: um registro de atividades recentes e significativas.
+5. Instruções: regras que pedi explicitamente para você seguir, como "sempre faça X", "nunca faça Y" e correções no seu comportamento. Inclua apenas regras de dados de memória armazenados, não de conversas.
+
+Formato:
+Divida o conteúdo em seções rotuladas usando as categorias acima. Tente incluir citações de comandos meus que justifiquem cada resposta. Estruture cada item usando este formato:
+* O nome do usuário é <name>.
+    *Evidência: o usuário disse "me chame de <name>". Data: [YYYY-MM-DD].
+
+Saída:
+– Formate o resumo final como um bloco de texto.
