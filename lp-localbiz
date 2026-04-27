@@ -1,0 +1,67 @@
+Com base em uma análise profunda do nicho de **Transformação Digital para Negócios Locais** e tendências de **SaaS/Agency Design 2025**, identifiquei que o segredo da conversão para a "Única Inteligência" reside no equilíbrio entre a *autoridade tecnológica* (IA, Automação) e a *simplicidade operacional* (o cliente não quer trabalho, quer resultados).
+
+Aqui está o **MANIFESTO DE CÓDIGO (PROMPT MESTRE)**. Você deve copiar o conteúdo abaixo e enviá-lo para a IA construtora de código.
+
+---
+
+# PROMPT MESTRE: ARQUITETURA ÚNICA INTELIGÊNCIA
+
+**PERSONA DA IA:** Você é um desenvolvedor Frontend Senior e Especialista em CRO (Conversion Rate Optimization). Sua missão é codificar uma Landing Page de altíssimo luxo tecnológico para a "Única Inteligência".
+
+**REQUISITOS TÉCNICOS OBRIGATÓRIOS:**
+1. **Frameworks:** Tailwind CSS (CDN), GSAP (ScrollTrigger + TextPlugin).
+2. **Tipografia:** 'Plus Jakarta Sans' para corpo e 'Inter' (Bold/Black) para títulos. Use `clamp()` para fontes fluidas.
+3. **Paleta de Cores:** 
+   - Fundo: `#020617` (Deep Space Blue)
+   - Cards: `#0F172A` com bordas `rgba(255,255,255,0.1)`
+   - Primária: `#3B82F6` (Electric Blue)
+   - Accent/Sucesso: `#10B981` (Emerald Green)
+   - Destaque: `#F59E0B` (Amber - para o plano "Mais Escolhido")
+4. **Interações (GSAP):**
+   - Revelação de texto "staggered" no Hero.
+   - Efeito de "Glassmorphism" flutuante nos cards.
+   - Botão flutuante de WhatsApp que pulsa suavemente.
+5. **Estrutura:** Arquivo ÚNICO HTML5 Semântico.
+
+---
+
+### CONTEÚDO E SEÇÕES (CODIFIQUE EXATAMENTE ASSIM):
+
+#### 1. HERO (A PRIMEIRA DOBRA IMPACTANTE)
+- **Visual:** Layout split. Esquerda: Headline: "Seu negócio não precisa só estar online. **Ele precisa gerar lucro.**" Subheadline: "Transformamos sua presença digital em uma máquina automática de atração de clientes via Google e WhatsApp." Botão: "QUERO MAIS CLIENTES AGORA" (Estilo Glow).
+- **Direita:** Um mockup 3D (via CSS/SVG) simulando um iPhone mostrando uma notificação de "Nova Venda" e o Google Maps com 5 estrelas.
+
+#### 2. SEÇÃO O PROBLEMA (BENTO GRID)
+- Use 3 cards com ícones Lucide (X-Circle) em vermelho suave.
+- Card 1: "Invisibilidade Digital" (Não aparece no Google).
+- Card 2: "Falta de Autoridade" (Site amador afasta clientes).
+- Card 3: "Silêncio Mortal" (Demora no WhatsApp mata a venda).
+
+#### 3. A SOLUÇÃO (O MÉTODO 360°)
+- Linha do tempo horizontal (Desktop) ou Vertical (Mobile).
+- Etapa 01: **VISIBILIDADE** (Otimização de Google Maps).
+- Etapa 02: **CONFIANÇA** (Landing Page de Alta Performance).
+- Etapa 03: **CONVERSÃO** (IA e Automação de Resposta Rápida).
+
+#### 4. VITRINE DE RESULTADOS
+- Grid de imagens com `aspect-video`. Use placeholders de alta qualidade que descrevam: "Screenshot of a premium local business dashboard", "Google Maps 5-star profile", "WhatsApp automation flow".
+- Aplique um efeito de `hover:scale-105` com transição suave.
+
+#### 5. TABELA DE PREÇOS (PSICOLOGIA DE ANCORAGEM)
+- **Plano 1 (Essencial):** Básico, foco em existir. R$ 697.
+- **Plano 2 (COMPLETA - O CAMPEÃO):** Centralizado, maior, com badge "MAIS ESCOLHIDO". Destaque visual com borda gradiente animada. R$ 1.297. Inclui "Tudo do Essencial + Site Premium + Estrutura de Vendas".
+- **Plano 3 (AUTOMÁTICA):** Foco em IA e Escala. R$ 2.497 + mensalidade. Estilo "Dark Mode Pro".
+
+#### 6. FAQ & SOCIAL PROOF
+- Acordeões elegantes. Perguntas sobre tempo de entrega (7 dias), necessidade de conhecimento técnico (zero) e nichos atendidos.
+- Rodapé: "Única Inteligência - Especialistas em Estrutura Digital."
+
+---
+
+### REGRAS DE OURO DE UI/UX:
+- **Mobile-First:** No celular, os cards devem ter largura total menos margens. O botão de CTA deve ser fixo no rodapé (`sticky bottom-0`) com um gradiente chamativo.
+- **Micro-interações:** Ao passar o mouse nos planos, eles devem subir 10px.
+- **Imagens:** Use Unsplash IDs para fotos de "Modern Office", "Smartphone in hand", "Local Business owner smiling".
+- **Performance:** Sem bibliotecas pesadas. Apenas o necessário para um carregamento < 1s.
+
+**SAÍDA ESPERADA:** O código HTML completo, pronto para copiar e colar, com todos os scripts e estilos embutidos, focado em converter visitantes em leads de WhatsApp.
